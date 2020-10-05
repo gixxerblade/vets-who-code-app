@@ -59,6 +59,15 @@ const gatsbyConfig = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-source-buzzsprout',
+      options: {
+        // You will need to generate an access token and get the podcast ID from your account
+        // https://github.com/Buzzsprout/buzzsprout-api#authentication
+        token: '1007fa2e27954cff6efcde8ccec36e17',
+        podcastId: '1105862',
+      },
+    },
   ],
   pathPrefix: `/`,
 }
