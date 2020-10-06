@@ -140,6 +140,7 @@
     position: relative;
     align-self: flex-end;
     border: none;
+    background: none;
     top: 15px;
   }
 
