@@ -62,6 +62,7 @@ const gatsbyConfig = {
         },
       },
     },
+    `gatsby-plugin-postcss`,
   ],
   pathPrefix: `/`,
 }

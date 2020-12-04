@@ -69,7 +69,7 @@ function Nav() {
             type="button"
             id="hamburger-1"
             onClick={() => setIsNavOpen(!isNavOpen)}
-            className={`navbar-toggle collapsed hamburger ${isNavOpen ? 'is-active' : ''}`}
+            className={`lg:hidden hamburger ${isNavOpen ? 'is-active' : ''}`}
             aria-expanded={isNavOpen ? 'true' : 'false'}
           >
             <span className="line"></span>
@@ -79,12 +79,12 @@ function Nav() {
           </button>
         </div>
         <div
-          className={`navbar-collapse collapse ${isNavOpen ? 'in' : ''}`}
+          className={`lg:flex flex-row justify-between w-full ${isNavOpen ? 'in' : ''}`}
           id="main-nav-collapse"
           aria-expanded={isNavOpen ? 'true' : 'false'}
         >
           <ul
-            className="nav navbar-nav navbar-right"
+            className="flex justify-between w-full m-1 font-bold uppercase px-6"
             role="menu"
             id="navbar-list"
             onClick={() => setIsNavOpen(false)}

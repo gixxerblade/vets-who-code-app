@@ -1,7 +1,7 @@
 const React = require('react')
 const Layout = require('./src/components/Layout').default
 
-require('./src/assets/lib/bootstrap/dist/css/bootstrap.min.css')
+//require('./src/assets/lib/bootstrap/dist/css/bootstrap.min.css')
 require('./src/assets/css/main.css')
 require('./src/assets/css/custom.css')
 
